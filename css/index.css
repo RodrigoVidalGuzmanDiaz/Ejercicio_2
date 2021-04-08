@@ -25,6 +25,7 @@ section{
     margin: 0px 0px 0px 0px;
     background-image: url(../img/banner.jpg);
      background-size: cover;
+    
 }
 
 .banner_index > .caja_izquierda > h2{
@@ -34,4 +35,44 @@ section{
 p{
     color: #fff;
 }
+.boton1{
+    display: block;
+    background-color: #577174;
+    padding: 10px 40px 10px 40px;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(104,133,94,1);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(104,133,94,1);
+    box-shadow: 2px 2px 10px 0px rgba(104,133,94,1);
+}
+.boton1:hover{
+    background-color:#BFC1E6;
+    color:black;
 
+    transition: 0.5s;
+}
+.boton2{
+    display: block;
+    background-color: #83727B;
+    padding: 10px 40px 10px 40px;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    border-color: currentColor;
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(196,160,250,1);
+    -moz-box-shadow: 1px 2px 5px 0px rgba(196,160,250,1);
+    box-shadow: 1px 2px 5px 0px rgba(196,160,250,1);
+}
+.boton2:hover{
+    background-color:#D6A5CF;
+    color:black;
+
+    transition: 0.5s;
+}
