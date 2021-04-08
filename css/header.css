@@ -37,12 +37,12 @@ header{
 }
 .nav li{
     color: black;
-    margin: 4px 20px 20px 0px;
+    margin: 0px 20px 10px 0px;
 
 }
 .logo{
     color: var(--color2);
-    margin: 8   px 20px 20px 0px;
+    margin: 8px 20px 10px 0px;
 
 
 }
