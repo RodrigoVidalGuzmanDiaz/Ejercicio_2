@@ -35,7 +35,8 @@ td{
  background-color:#646663;
 }
 .tabla{
-    border-color: #FFFFFF;
+    margin: 1px;
+    border-color: #000;
     color:#FFFFFF;
 }
 .sesionn{
@@ -66,7 +67,28 @@ section{
 a{
     text-decoration: none;
     color: black;
+    
 }
-
-
-
+.menu_css{
+    
+    height: auto;
+    background-color: black;
+    cursor: pointer;
+    color: #fff;
+}
+.el{
+    display: inline;
+    
+    transition: 0.2s;
+    display: none;
+    cursor: pointer;
+    color: white;
+    
+}
+.menu_css:hover .el{
+    transition: 0.4s;
+    display: block;
+}
+.el:hover{
+    background-color: #434343;
+}
