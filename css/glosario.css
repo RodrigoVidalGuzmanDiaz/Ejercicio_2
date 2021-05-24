@@ -30,9 +30,11 @@ td{
 }
 .two{
     background-color:#000000;
+
 }
 .one{ 
  background-color:#646663;
+
 }
 .tabla{
     margin: 1px;
@@ -82,13 +84,17 @@ a{
     transition: 0.2s;
     display: none;
     cursor: pointer;
-    color: white;
+    color: white;.
+    position: relative;
+    display: none;
     
 }
 .menu_css:hover .el{
     transition: 0.4s;
     display: block;
+    position: relative;
 }
 .el:hover{
     background-color: #434343;
+    display: none;
 }
