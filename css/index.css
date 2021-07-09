@@ -8,9 +8,6 @@ body{
     height: 500px;
 
 }
-header{
-    margin-bottom: -20px;
-}
 :root{
     --color1: red;
     --color2: white;
