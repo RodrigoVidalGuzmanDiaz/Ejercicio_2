@@ -2,8 +2,7 @@
     
     font-family: 'Zilla Slab', serif;
 }
-table.browserref
-{
+table.browserref{
 width:90%;
 }
 h1{
@@ -12,6 +11,9 @@ h1{
 img{
     width: 100px;
     
+}
+.texto{
+    margin-bottom: -35px;
 }
 .encima{
     color:aliceblue;
@@ -43,6 +45,8 @@ img{
 }
 .sesionn{
     width: 350px;
+    justify-content: center;
+    align-items: center;
 }
 .sesion{
     width: 270px;
@@ -63,8 +67,8 @@ footer{
     color: #FFFFFF;
 }
 section{
-     width: 1000px;
-    margin: 30px auto;
+    width: 1000px;
+    margin: 20px auto;
 }
 a{
     text-decoration: none;
@@ -81,7 +85,7 @@ a{
 .el{
     display: inline;
     
-    transition: 0.2s;
+    
     display: none;
     cursor: pointer;
     color: white;
@@ -92,8 +96,16 @@ a{
     transition: 0.4s;
     display: block;
     position: relative;
+   
 }
 .el:hover{
+    transition: 0.4s;
     background-color: #434343;
     display: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
