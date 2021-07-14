@@ -1,18 +1,18 @@
-*{
-    
-    font-family: 'Zilla Slab', serif;
-}
-table.browserref{
-width:90%;
-}
-h1{
-    margin-top: 15px;
-}
-p{
+    *{
+        font-family: 'Zilla Slab', serif;
+    }
+    table.browserref{
+    width:90%;
+    }
+    h1{
+        margin-top: 15px;
+    }
+    p{
 
-    font-size: 24px;
-}
-header{
-    font-size: 26px;
-}
+        font-size: 30px;
+    }
+    header{
+        font-size: 26px;
+    }
+    
 
