@@ -10,3 +10,4 @@
 | Grado  |  IV Computación |
 | Materia  | Computación  |
 | Catedrático  |  Jossue Emmanuel Fuentes |
+| Trabajo  |  <a href="https://rodrigovidalguzmandiaz.github.io/Ejercicio_2/"><strong>Portafolio</strong></a> |
