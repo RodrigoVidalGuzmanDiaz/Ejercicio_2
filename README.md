@@ -19,7 +19,7 @@
 
 2. Glosario
 
-**2.1** Las etiquetas que debe contener la cabeza de una pagina web.
+    **2.1** Las etiquetas que debe contener la cabeza de una pagina web.
 
 **2.2**  Las etiquetas que son necesarias para conformar una lista ordenada o no ordenada.
 
