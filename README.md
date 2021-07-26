@@ -14,15 +14,27 @@
 | Trabajo  |  <a href="https://rodrigovidalguzmandiaz.github.io/Ejercicio_2/"><strong>Portafolio</strong></a> |
 ## Indice
 1. Home page
+
 **1.1**	Banner de Introducción al glosario
 
 2. Glosario
+
 **2.1** Las etiquetas que debe contener la cabeza de una pagina web.
+
 **2.2**  Las etiquetas que son necesarias para conformar una lista ordenada o no ordenada.
+
 **2.3**	Las etiquetas que son fundamentales para realizar una tabla.
+
 **2.4**	Etiquetas para hacer un formulario.
-**2.5**	Las variadas etiquetas para poder llegar realizar un maquetación debido a los alineamientos de objetos.
+
+**2.5**	Las variadas etiquetas para poder llegar realizar un
+maquetación debido a los alineamientos de objetos.
+
 **2.6**	Etiquetas que pueden alterar un texto común.
+
 **27**	Y la etiqueta que funciona para hacer una conexión con el css.
-**2.8**	Contando con la utilidad de etiquetas bastante útiles
+
+**2.8**	Contando con la utilidad de etiquetas bastante útiles.
+
 **2.9**	Junto con las propiedades css más utilizadas.
+
