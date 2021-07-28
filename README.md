@@ -9,7 +9,7 @@
 | ------------ | ------------ |
 |  Colegio |  Colegio  Santa Catalina Labouré  |
 | Grado  |  IV Computación |
-| Materia  | Computación  |
+| Materia  | Laboratorio 1  |
 | Catedrático  |  Jossue Emmanuel Fuentes |
 | Trabajo  |  <a href="https://rodrigovidalguzmandiaz.github.io/Ejercicio_2/"><strong>Portafolio</strong></a> |
 ## Indice
