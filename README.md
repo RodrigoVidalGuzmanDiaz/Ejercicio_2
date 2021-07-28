@@ -17,7 +17,7 @@
 2.Anteportada
 3. Home page
 
-      **3.1**	Banner de Introducción al glosario
+      <strong>3.1</strong>	Banner de Introducción al glosario
 
 4. Glosario
 
