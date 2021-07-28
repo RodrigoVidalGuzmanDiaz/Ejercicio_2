@@ -14,10 +14,12 @@
 | Trabajo  |  <a href="https://rodrigovidalguzmandiaz.github.io/Ejercicio_2/"><strong>Portafolio</strong></a> |
 ## Indice
 1.Portada
+
 2.Anteportada
+
 3. Home page
 
-      <strong>3.1</strong>	Banner de Introducción al glosario
+      **3.1** Banner de Introducción al glosario
 
 4. Glosario
 
