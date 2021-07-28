@@ -13,9 +13,9 @@
 | Catedrático  |  Jossue Emmanuel Fuentes |
 | Trabajo  |  <a href="https://rodrigovidalguzmandiaz.github.io/Ejercicio_2/"><strong>Portafolio</strong></a> |
 ## Indice
-     1.Portada
+   1.Portada
 
-     2.Anteportada
+   2.Anteportada
 
 3. Home page
 
