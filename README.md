@@ -33,7 +33,7 @@ ________________________________________________________________________________
       **4.4**	Etiquetas para hacer un formulario.
 
       **4.5**	Las variadas etiquetas para poder llegar realizar un
-maquetación debido a los alineamientos de objetos.
+      maquetación debido a los alineamientos de objetos.
 
       **4.6**	Etiquetas que pueden alterar un texto común.
 
