@@ -43,3 +43,10 @@ ________________________________________________________________________________
 
       **4.9**	Junto con las propiedades css más utilizadas.
 
+## Objetivos
+> 1)Saber
+Analizar o tener una mejor observación en la realizacion de axctividades y actualización de portafolio.
+> 2) Saber Hacer
+Practicar de mejor manera el desarrollo de codigo html.
+> 3) Saber Ser y Estar
+Poder obtenre una ideas o referenciaa de lo que está por aprender.
