@@ -4,15 +4,97 @@
 table.browserref{
 width:90%;
 }
+.inicio{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: gray;
+
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid black;
+}
+.inicio1{
+    color: #fff;
+    
+    text-align: center;
+}
+.mitad{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+}
+.mitad1{
+    border: 2px solid black;
+    padding: 0px 155px 0px 155px;
+}
+.fin{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    border: 2px solid black;
+}
+.fin1{
+    border: 2px solid black;
+    padding: 0px 155px 0px 155px;
+}
+.ht {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+}
 h1{
     margin-top: 15px;
 }
 img{
-    width: 100px;
-    
+    width: 110px;
 }
+.linea{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.primero{
+    background-color: #000;
+    width: auto;
+    text-align: center;
+}
+.segundo{
+    background-color:gray;
+    width: auto;
+    text-align: center;
+}
+.tema{
+    color: white;
+    background-color: black;
+    width: 80px;
+}
+.tema2{
+    background-color:gray;
+    width: 80px;
+}
+.descipcion{
+    color: white;
+    background-color: gray;
+    width: auto;
+}
+.descipcion2{
+    background-color:black;
+    width: auto;
+    min-width: 357px;
+    max-width: 405px;
+    margin: 0px 2px 0px 2px;
+}
+
 .texto{
-    margin-bottom: -35px;
+    text-align: justify;
+    font-size: 16px;
+    margin: 15px 0px 15px 0px;
 }
 .encima{
     color:aliceblue;
@@ -29,18 +111,31 @@ img{
     border: black;
     color: #FFFFFF;
 }
-.two{
-    background-color:#000000;
 
+.two{
+    background-color:#646663;
+    width: auto;
 }
 .one{ 
- background-color:#646663;
+ background-color:#000;
+ text-align: center;
 
 }
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
 .tabla{
-    margin: 1px;
+    margin: 10px;
+    border: 9px solid black;
     border-color: #000;
     color:#FFFFFF;
+    width: 305px;
+    height: 77px;
+    background-color: black;
 }
 .sesionn{
     width: 350px;
@@ -53,6 +148,7 @@ img{
 .iniciar{
     width: 240px;
 }
+
 .uno{
     color:grey;
     font-family: fantasy;
@@ -61,22 +157,48 @@ footer{
     width: 100%;
     height: 100px;
     background-color: black;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     color: #FFFFFF;
 }
+.todo{
+    max-width: 1000px;
+    margin: auto;
+}
 section{
-    width: 1000px;
-    margin: 20px auto;
+
+    margin:auto;
 }
 a{
     text-decoration: none;
     color: black;
-    
 }
-.menu_css{
+.colum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.two{
     
     height: auto;
+    text-align: center;
+    background-color: gray;
+    cursor: pointer;
+    color: #fff;
+}
+.one{
+    
+    height: auto;
+    background-color: black;
+    cursor: pointer;
+    color: #fff;
+}
+.menu_css{
+    text-align: center;
+    height: auto;
+    width: 200px;
     background-color: black;
     cursor: pointer;
     color: #fff;
@@ -90,6 +212,7 @@ a{
     color: white;
     position: relative;
     display: none;
+    background-color: #000;
 }
 .menu_css:hover .el{
     transition: 0.4s;
@@ -107,7 +230,6 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 }
 .titulo_1{
     display: flex;
@@ -119,12 +241,5 @@ a{
     flex-direction: row;
     justify-content: center;
 }
-th{
-    font-size: 15px;
-}
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: center;
-}
+
+
