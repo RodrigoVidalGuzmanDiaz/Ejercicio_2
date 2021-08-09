@@ -57,10 +57,13 @@ ________________________________________________________________________________
 _______________________________________________________________________________________
 ## 	  Objetivos Futuros
 +Organización
+
 Organizar mejor el tiempo en los trabajos y actividades.
 
 +Investigación
+
 Poder poner en practica la experiencia conseguida en las unidades.
 
 +Propósito
+
 Trabajar cada vez con mas desempeño y dedicación.
