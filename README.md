@@ -45,12 +45,22 @@ ________________________________________________________________________________
 
 ## Objetivos
 > 1)Saber
-Analizar o tener una mejor observación en la realizacion de axctividades y actualización de portafolio.
 
+ Analizar o tener una mejor observación en la realizacion de axctividades y actualización de portafolio.
 > 2) Saber Hacer
-Practicar de mejor manera el desarrollo de codigo html.
 
+ Practicar de mejor manera el desarrollo de codigo html.
 > 3) Saber Ser y Estar
-Poder obtenre una ideas o referenciaa de lo que está por aprender.
+
+ Poder obtenre una ideas o referenciaa de lo que está por aprender.
 
 _______________________________________________________________________________________
+## 	  Objetivos Futuros
++Organización
+Organizar mejor el tiempo en los trabajos y actividades.
+
++Investigación
+Poder poner en practica la experiencia conseguida en las unidades.
+
++Propósito
+Trabajar cada vez con mas desempeño y dedicación.
