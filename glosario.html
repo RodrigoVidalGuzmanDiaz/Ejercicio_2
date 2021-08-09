@@ -1,62 +1,448 @@
+<!DOCTIPE html>
+    
+<html>
+    <head>
+        <meta charset="UTF-8">
 
-
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Archivos CSS-->
-    <link rel= "stylesheet" href="css/index.css">
-    <link rel= "stylesheet" href="css/header.css">
-    <link rel= "stylesheet" href="css/index-tableta.css" media="(min-width:768px)">
-
-    <!--link de tipografia-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">    
         
-    <title>inicio</title>
-</head>
 
-
-<body>
-    <!--Sección del encabezado-->
-  <header>
-    <h1 class="logo">Vidal</h1>
-            
-    <ul class="nav">
-        <li><a href="index.html" class="header">Inicio</a></li>
-        <li><a href="glosario.html" class="header">Glosario</a></li>
-    </ul>
-</header>  
- <br>
-
-
-
-
-   <section class="contenedora">
-    <section class="banner_index">
-       <article class="caja_izquierda">
-        <h2>
-            Programa siempre tu código<br><p class="letra">como si</p>
-            fuera tu ultimo<br>codigo por desarrollar
-        </h2>
+        <title>PORTAFOLIO</title>
         
-           <p class="frase">
+        <!--conección con el css-->
+        <link rel="stylesheet" href="css/glosario.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel= "stylesheet" href="css/glosario-telefono.css" media="(max-width:980px)">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset="utf-8">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">    
+        
+    </head>
+    <body>
+    <!--Header-->
+    <header>
+                <h1 class="logo">Vidal</h1>
+                <ul class="nav">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="glosario.html">Glosario</a></li>
+                </ul>
+    </header>
+        
+
+   
+<section class="todo">
+   <div class="colum">   
+        <h1 class="titulo_1">TIPOS DE ETIQUETAS</h1>
+
+        <section class="sec_listados">
+                <p>
+            En HTML y CSS tenemos diferente tipos de etiquetas cada uno con un propósito en particular una
+        
+            etiqueta se puede componerse de dos maneras.
+                </p>
+        </section>   
+  <br>
+        <section class="sec_listados">
+            <p><u class = "uno">&#10133;La cabeza de cada pagina web tiene que contener:</u></p>
+           
+        <div class="contenedor">
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;html&gt; &lt;/html&gt;</div>  
+                    <div class="segundo">Es lo que encierra todo el codigo de la pagina.</div> 
+                    <center><div class="menu_css">&nbsp;css&nbsp;
+                        <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                        <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                        <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                        <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        
+                    </div></center>
+                </div>
+            </div>
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;title&gt; &lt;/title&gt;</div>  
+                    <div class="segundo">Es para ponerle un nombre a la pagina en general .</div> 
+                   <center> <div class="menu_css">&nbsp;css&nbsp;
+                        <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                        <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                        <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                        <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        
+                    </div></center>
+                </div>
+            </div>
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;header&gt; &lt;/header&gt;</div>  
+                    <div class="segundo">El navegador que llevará la pagina al momento de mostrar secciones.</div> 
+                       <center> <div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        
+                    </div></center>
+                </div>
+            </div>
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;body&gt; &lt;/body&gt;</div>  
+                    <div class="segundo">Su principal funcion es hacer un cuerpo para la pagina.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;width: 100px;&nbsp;</div>
+                            <div class="el">&nbsp;heidgt: 100px;&nbsp;</div>
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                    </div></center>
+                </div>
+            </div>
+       </div>
+        </section><br class="listas">
+
+    
+    <img src="img/html.png" class = "sesionn"> 
+
+    
+         <section class="sec_listados">
+           <p><u class = "uno">&#10133;Las diferentes maneras de hacer un lista de son las variables de:</u></p> 
+        
+        <div class="contenedor">
+           <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;ul&gt; &lt;/ul&gt;</div>  
+                     <div class="segundo">Realizar una lista sin ordenar.</div> 
+                     <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+            </div>
+        </div>
+
+        
+
+        <div class="tabla">
+            <div class="linea">
+                <div class="one">&lt;ol&gt; &lt;/ol&gt;
+                    
+                </div>  
+                 <div class="segundo">Realizar una lista ordenada. </div> 
+                 <center><div class="menu_css">&nbsp;css&nbsp;
+                        <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                        <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                        <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                        <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>   
+                    </div></center>
+        </div>
+    </div>
+
+    <div class="tabla">
+        <div class="linea">
+            <div class="one">&lt;li&gt; &lt;/li&gt;</div>  
+             <div class="segundo">Los elementos que se pondrán.</div> 
+                <center><div class="menu_css">&nbsp;css&nbsp;
+                    <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                    <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                    <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                    <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                </div></center>
+        </div>
+    </div>
+
+</div>
+        </section>
+ 
+    
+<img src="img/listado2.jpg" class="lista"> 
+    
+        <section class="sec_listados">
+            <p><u class = "uno">&#10133;Para poder llegar a hacer una tabla con sus propiedades se necesita:</u></p>
+            <div class="contenedor">
+                <div class="tabla">
+                    <div class="linea">
+                        <div class="one">&lt;table&gt; &lt;/table&gt;
+                        
+                    </div>  
+                     <div class="segundo">La tabla en sí par poder agregar su contenido.</div>
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div> 
+                        </div></center>
+            </div>
+        </div>
+
+        <div class="tabla">
+            <div class="linea">
+                <div class="one">&lt;tr&gt; &lt;/tr&gt;</div>  
+                 <div class="segundo">Las columnas que se quiere agregar para poner el contenido .</div> 
+                    <center><div class="menu_css">&nbsp;css&nbsp;
+                        <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                        <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                        <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                        <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>  
+                    </div></center>
+        </div>
+    </div>
+        
+    <div class="tabla">
+        <div class="linea">
+            <div class="one">&lt;td&gt; &lt;/td&gt;
+                
+            </div>  
+             <div class="segundo">Las casillas que se desean agregar y su contenido .</div> 
+                <center><div class="menu_css">&nbsp;css&nbsp;
+                    <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                    <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                    <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                    <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                </div></center>
+
+        </div>
+    </div>
+</div>
+        </section>
+ 
+    
+    <img src="img/tabla.jpg" class="sesion">
+       
+       <section class="sec_listados">
+            <p><u class="uno">&#10133;Al crear un formulario dependen de la funcionalidad de las siguientes variables.</u></p>
+            <div class="contenedor">
+                <div class="tabla">
+                    <div class="linea">
+                        <div class="one">&lt;form&gt;
+                        
+                    </div>  
+                     <div class="segundo">Encierra todo lo antes mecionado.</div> 
+                     <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+            </div>
+        </div>
+
+        <div class="tabla">
+            <div class="linea">
+                <div class="one">&lt;label&gt;
+                    
+                </div>  
+                 <div class="segundo">Lo que se quiere agregar para continuar.</div> 
+                 <center><div class="menu_css">&nbsp;css&nbsp;
+                        <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                        <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                        <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                        <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                </div></center>
+        </div>
+    </div>
+
+    <div class="tabla">
+        <div class="linea">
+            <div class="one">&lt;input&gt;</div>  
+             <div class="descipcion">El texto que se muestra en la barra.</div> 
+             <center><div class="menu_css">&nbsp;css&nbsp;
+                    <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                    <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                    <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                    <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+            </div></center>
+    </div>
+</div>
+
+<div class="tabla">
+    <div class="linea">
+        <div class="one">&lt;button&gt; &lt;/button&gt;</div>  
+         <div class="segundo">Para agregar un boton en el panel.</div> 
+            <center><div class="menu_css">&nbsp;css&nbsp;
+                <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+            </div></center>
+        </div>
+    </div>
+</div>
+        </section>
+
+    
+    <img src="img/sesion.jpg" class="iniciar">
+    
+        <section class="sec_listados">
+            <p><u class="uno">&#10133;Maquetación</u></p>
+            <div class="contenedor">
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;div&gt; &lt;/div&gt;
+                        
+                    </div>  
+                     <div class="segundo">Para agregar una caja en la pagina y alterable.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+
+            </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;section&gt; &lt;/section&gt;</div>  
+                     <div class="segundo">Separar los elementos por secciones abiertas.</div> 
+                     <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                    </div></center>
+            </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;footer&gt; &lt;/footer&gt;</div>  
+                     <div class="segundo">Hace un pie de pagina al final de la pagina.</div> 
+                     <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                    </div></center>
+                </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;nav&gt; &lt;/nav&gt;</div>  
+                     <div class="segundo">Almacena todo el contenido del navegador.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+                </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;article&gt; &lt;/article&gt;</div>  
+                     <div class="segundo">Representa un composición auto-contenida.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp; 
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <section class="sec_listados">
+            <p><u class="uno">&#10133;Etiquetas dirigidas a textos como:</u></p>
+        <div class="contenedor">
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;a&gt; &lt;/a&gt;</div>  
+                     <div class="segundo">Un texto con enlace o con hipervinculo.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp; 
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>   
+                            </div></center>
+
+            </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;u&gt; &lt;/u&gt;</div>  
+                     <div class="segundo">Hacer un texto subrayado para resaltar.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp; 
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+            </div>
+            </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;strong&gt; &lt;/strong&gt;</div>  
+                     <div class="segundo">Hacer un texto resaltado o con negrita.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp; 
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+            </div>
+        </div>
+
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;h1&gt;&lt;/h1&gt; a&lt;h6&gt;&lt;/h6&gt;</div>  
+                     <div class="segundo">Hacer un titulo de nivel 1 a nivel 6 dendiendo del contexto.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+       <section class="sec_listados">
+            <p><u class="uno">&#10133;Conexión HTML</u></p>
+        <div class="contenedor">
+            <div class="tabla">
+                <div class="linea">
+                    <div class="one">&lt;link&gt; &lt;/link&gt;</div>  
+                     <div class="segundo">Realizar un conexión con un documento externo.</div> 
+                        <center><div class="menu_css">&nbsp;css&nbsp;
+                            <div class="el">&nbsp;font-family: cursive;&nbsp;</div>
+                            <div class="el">&nbsp;font-size: 15px;&nbsp;</div>
+                            <div class="el">&nbsp;color: #222222;&nbsp;</div>
+                            <div class="el">&nbsp;backgound-color: #787878;&nbsp;</div>
+                        </div></center>
+                </div>
+            </div>
+        </div>
             
-                <br>"El ordenador nació para resolver problemas que antes no existían"<br>Bill Gates.
-            </p>
+        </section>
 
-         <br>
-                         <section class="botones">
-                            <a href="https://jefuentes80.github.io/starup_scl/iv_computacion/rodrigoguzman.html" class="boton1">rvguzman@</a> <a href="https://github.com/RodrigoVidalGuzmanDiaz/Ejercicio_2.git" class="boton1">Respositorio</a><br></section>
-     </article>     
-    </section>
-   </section>
-
-</body>
+      
+        
+            
+</div>
+</section>
+        <footer>
+        Rodrigo Vidal Guzmán Díaz
+            
+        </footer>
+    
+         
+        </div>
+    </body>
 </html>
