@@ -52,3 +52,5 @@ Practicar de mejor manera el desarrollo de codigo html.
 
 > 3) Saber Ser y Estar
 Poder obtenre una ideas o referenciaa de lo que está por aprender.
+
+_______________________________________________________________________________________
